@@ -1,5 +1,6 @@
 # 1-Ollama_Chatbot
 
+Intro: 
 A lightweight, customizable chatbot built with Ollama for running large language models (LLMs) locally — no cloud dependency, no API keys.
 
 🔍 Features
@@ -27,3 +28,34 @@ Offline AI assistant
 Local coding helper
 
 Lightweight developer tool
+
+
+Prerequisites
+Before running this application, ensure the following:
+
+Python 3.8+ is installed on your machine.
+
+Install required packages via pip:
+
+bash
+Copy
+Edit
+pip install streamlit langchain langchain-community python-dotenv
+Ollama must be installed and running locally
+Refer to https://ollama.com for installation instructions.
+
+Models like llama2, gemma2, or mistral should be available locally in Ollama.
+You can pull them using:
+
+bash
+Copy
+Edit
+ollama pull llama2
+ollama pull gemma2
+ollama pull mistral
+.env file (optional but recommended):
+You may create a .env file in the root directory to manage environment variables (e.g., for future enhancements like API keys or configuration).
+
+
+
+
