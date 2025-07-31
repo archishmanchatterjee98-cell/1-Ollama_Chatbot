@@ -33,28 +33,20 @@ Lightweight developer tool
 Prerequisites
 Before running this application, ensure the following:
 
-Python 3.8+ is installed on your machine.
+1. Python 3.8+ is installed on your machine.
 
-Install required packages via pip:
+2. Install required packages via pip or uv also for faster execution:
+pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install streamlit langchain langchain-community python-dotenv
-Ollama must be installed and running locally
+3. Ollama must be installed and running locally
 Refer to https://ollama.com for installation instructions.
 
-Models like llama2, gemma2, or mistral should be available locally in Ollama.
-You can pull them using:
-
-bash
-Copy
-Edit
-ollama pull llama2
-ollama pull gemma2
-ollama pull mistral
-.env file (optional but recommended):
-You may create a .env file in the root directory to manage environment variables (e.g., for future enhancements like API keys or configuration).
+4. Models like llama2, gemma2, or mistral should be available locally in Ollama.
+  You can pull them using:
+  ollama pull llama2
+  ollama pull gemma2
+  ollama pull mistral
+5. .env file (optional but recommended): You may create a .env file in the root directory to manage environment variables (e.g., for future enhancements like API keys or configuration).
 
 
 
