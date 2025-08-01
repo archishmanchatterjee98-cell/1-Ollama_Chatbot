@@ -20,7 +20,7 @@ LangChain — LLM orchestration
 
 Streamlit — UI framework
 
-Python 3.13+
+Python 3.10+
 
 📦 Use Cases
 Offline AI assistant
@@ -33,7 +33,7 @@ Lightweight developer tool
 Prerequisites
 Before running this application, ensure the following:
 
-1. Python 3.8+ is installed on your machine.
+1. Python 3.10+ is installed on your machine.
 
 2. Install required packages via pip or uv also for faster execution:
 pip install -r requirements.txt
@@ -46,7 +46,15 @@ Refer to https://ollama.com for installation instructions.
   ollama pull llama2
   ollama pull gemma2
   ollama pull mistral
-5. .env file (optional but recommended): You may create a .env file in the root directory to manage environment variables (e.g., for future enhancements like API keys or configuration).
+5.The user interface is implemented using [Streamlit](https://streamlit.io/), a powerful and easy-to-use Python framework for building interactive web applications.
+
+- 🔹 Clean and minimalistic frontend
+- 🔹 Supports real-time interaction with backend logic
+- 🔹 Runs locally in the browser
+
+To launch the Streamlit app, use:
+streamlit run app.py
+6 .env file (optional but recommended): You may create a .env file in the root directory to manage environment variables (e.g., for future enhancements like API keys or configuration).
 
 
 
