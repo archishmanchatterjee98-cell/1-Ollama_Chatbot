@@ -5,6 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.llms import Ollama
 
+#1. New change
 # Load env vars and set tracing
 load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
