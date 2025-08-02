@@ -9,6 +9,7 @@ from langchain_community.llms import Ollama
 load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "Q&A Chatbot With OLLAMA"
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 
 DEFAULT_ASSISTANT_MSG = "Hi! I am a helpful assistant. How can I help you?"
 # Prompt template
