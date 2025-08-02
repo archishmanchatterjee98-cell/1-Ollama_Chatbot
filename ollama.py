@@ -7,6 +7,7 @@ from langchain_community.llms import Ollama
 
 #1. New change
 # Load env vars and set tracing
+# another thing
 load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "Q&A Chatbot With OLLAMA"
