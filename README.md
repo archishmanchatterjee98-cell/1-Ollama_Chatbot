@@ -46,7 +46,7 @@ Refer to https://ollama.com for installation instructions.
   ollama pull llama2
   ollama pull gemma2
   ollama pull mistral
-  
+
 5. The user interface is implemented using [Streamlit](https://streamlit.io/), a powerful and easy-to-use Python framework for building interactive web applications.
 
 - 🔹 Clean and minimalistic frontend
@@ -56,7 +56,6 @@ Refer to https://ollama.com for installation instructions.
 To launch the Streamlit app, use:
 streamlit run app.py
 6 .env file (optional but recommended): You may create a .env file in the root directory to manage environment variables (e.g., for future enhancements like API keys or configuration).
-
 
 
 
