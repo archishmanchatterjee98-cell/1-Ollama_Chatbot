@@ -28,8 +28,6 @@ def generate_response(question, llm, temperature):
 def initialize_session():
     return [{"role": "assistant", "content": DEFAULT_ASSISTANT_MSG}]
 
-
-
 # Streamlit UI
 st.title("🧠 Q&A Chatbot with Ollama")
 st.caption("Go Ahead and ask your question!")
